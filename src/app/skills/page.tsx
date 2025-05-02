@@ -8,7 +8,7 @@ import { portfolioConfig } from "@/config/portfolio.config";
 const skillPage = () => {
   return (
     // SKILLS PAGE
-    <div className="h-full w-full relative flex flex-col items-start gap-5 overflow-hidden">
+    <div className="h-full w-full relative flex flex-col items-start gap-5">
       <div className="absolute inset-0 bg-[radial-gradient(circle,_var(--primary-sky)_1px,_transparent_1px)] bg-[size:20px_20px] opacity-10 z-0 pointer-events-none" />
       <Badge variant="secondary" className="gap-1.5 py-1 ">
         <LightbulbIcon className="w-4 h-4" />
