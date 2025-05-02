@@ -22,10 +22,10 @@ const Aboutfooter = () => {
 
   return (
     <>
-      {items.map((val, indx) => {
-        return (
-          <div className="p-1 w-fit relative mx-6" key={indx}>
-            <h1 className="gap-2 text-3xl font-poppins text-primary font-semibold relative flex icon_underline max-sm:text-2xl">
+      <div className="flex flex-col items-center w-full gap-8">
+        {items.map((val, indx) => (
+          <div className="p-1 w-fit relative" key={indx}>
+            <h1 className="gap-2 text-3xl font-poppins text-primary font-semibold relative flex icon_underline max-sm:text-2xl items-center justify-center">
               {val.icon}
               {val.name}
             </h1>
@@ -33,8 +33,8 @@ const Aboutfooter = () => {
               <Circle className="h-3 w-3" /> {val.answer}
             </div>
           </div>
-        );
-      })}
+        ))}
+      </div>
     </>
   );
 };
