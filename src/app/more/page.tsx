@@ -12,43 +12,46 @@ const morePage = () => {
           <PackagePlus className="h-4 w-4" />
           Experience
         </Badge>
-        <div className="flex flex-col gap-3 w-full">
-          <Heading>Experience</Heading>
-          {portfolioConfig.experience.map((exp, idx) => (
-            <FramerWrapper key={idx} y={0} x={0} className="mb-4">
-              <div className="font-bold text-lg text-primary">{exp.title} <span className="font-normal text-base text-muted-foreground">@ {exp.company} ({exp.period}, {exp.location})</span></div>
+        <div className="flex flex-col gap-3 w-full relative">
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--primary-sky)_1px,_transparent_1px)] bg-[size:20px_20px] opacity-10" />
+          <div className="relative z-10">
+            <Heading>Experience</Heading>
+            {portfolioConfig.experience.map((exp, idx) => (
+              <FramerWrapper key={idx} y={0} x={0} className="mb-4">
+                <div className="font-bold text-lg text-primary">{exp.title} <span className="font-normal text-base text-muted-foreground">@ {exp.company} ({exp.period}, {exp.location})</span></div>
+                <ul className="list-disc ml-6 mt-1 text-base text-gray-700">
+                  {exp.details.map((d, i) => <li key={i}>{d}</li>)}
+                </ul>
+              </FramerWrapper>
+            ))}
+            <Heading>Internships</Heading>
+            {portfolioConfig.internships.map((intern, idx) => (
+              <FramerWrapper key={idx} y={0} x={0} className="mb-4">
+                <div className="font-bold text-lg text-primary">{intern.title} <span className="font-normal text-base text-muted-foreground">@ {intern.company} ({intern.period}, {intern.location})</span></div>
+                <ul className="list-disc ml-6 mt-1 text-base text-gray-700">
+                  {intern.details.map((d, i) => <li key={i}>{d}</li>)}
+                </ul>
+              </FramerWrapper>
+            ))}
+            <Heading>Courses Completed</Heading>
+            {portfolioConfig.courses.length === 0 ? <div className="text-gray-700 ml-2">(Add your courses in config)</div> : (
               <ul className="list-disc ml-6 mt-1 text-base text-gray-700">
-                {exp.details.map((d, i) => <li key={i}>{d}</li>)}
+                {portfolioConfig.courses.map((course, idx) => (
+                  <li key={idx}>{course.title} {course.provider ? `- ${course.provider}` : ""} {course.year ? `(${course.year})` : ""}</li>
+                ))}
               </ul>
-            </FramerWrapper>
-          ))}
-          <Heading>Internships</Heading>
-          {portfolioConfig.internships.map((intern, idx) => (
-            <FramerWrapper key={idx} y={0} x={0} className="mb-4">
-              <div className="font-bold text-lg text-primary">{intern.title} <span className="font-normal text-base text-muted-foreground">@ {intern.company} ({intern.period}, {intern.location})</span></div>
+            )}
+            <Heading>Achievements</Heading>
+            <ul className="list-disc ml-6 mt-1 text-base text-gray-700">
+              {portfolioConfig.achievements.map((ach, idx) => <li key={idx} dangerouslySetInnerHTML={{__html: ach}} />)}
+            </ul>
+            <Heading>Co-curricular</Heading>
+            {portfolioConfig.coCurricular.length === 0 ? <div className="text-gray-700 ml-2">(Add your co-curricular activities in config)</div> : (
               <ul className="list-disc ml-6 mt-1 text-base text-gray-700">
-                {intern.details.map((d, i) => <li key={i}>{d}</li>)}
+                {portfolioConfig.coCurricular.map((item, idx) => <li key={idx}>{item}</li>)}
               </ul>
-            </FramerWrapper>
-          ))}
-          <Heading>Courses Completed</Heading>
-          {portfolioConfig.courses.length === 0 ? <div className="text-gray-700 ml-2">(Add your courses in config)</div> : (
-            <ul className="list-disc ml-6 mt-1 text-base text-gray-700">
-              {portfolioConfig.courses.map((course, idx) => (
-                <li key={idx}>{course.title} {course.provider ? `- ${course.provider}` : ""} {course.year ? `(${course.year})` : ""}</li>
-              ))}
-            </ul>
-          )}
-          <Heading>Achievements</Heading>
-          <ul className="list-disc ml-6 mt-1 text-base text-gray-700">
-            {portfolioConfig.achievements.map((ach, idx) => <li key={idx} dangerouslySetInnerHTML={{__html: ach}} />)}
-          </ul>
-          <Heading>Co-curricular</Heading>
-          {portfolioConfig.coCurricular.length === 0 ? <div className="text-gray-700 ml-2">(Add your co-curricular activities in config)</div> : (
-            <ul className="list-disc ml-6 mt-1 text-base text-gray-700">
-              {portfolioConfig.coCurricular.map((item, idx) => <li key={idx}>{item}</li>)}
-            </ul>
-          )}
+            )}
+          </div>
         </div>
       </div>
     </div>
