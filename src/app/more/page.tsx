@@ -6,7 +6,7 @@ import { portfolioConfig } from "@/config/portfolio.config";
 
 const morePage = () => {
   return (
-    <div className="min-h-screen w-full relative flex flex-col items-start gap-5 bg-background">
+    <div className="h-full w-full relative flex flex-col items-start gap-5">
       <Badge variant="secondary" className="gap-1.5 py-1 ">
         <PackagePlus className="h-4 w-4" />
         Experience
