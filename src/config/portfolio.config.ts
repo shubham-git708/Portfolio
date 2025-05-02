@@ -300,8 +300,6 @@ export const portfolioConfig = {
     }
   ],
   courses: [
-    //- Complete Digital Marketing Course – Udemy
-    { title: "Complete Digital Marketing Course", provider: "Udemy", year: "2024" },
     // Complete Product Management Course – Udemy
     { title: "Complete Product Management Course", provider: "Udemy", year: "2024" },
     // Product Management Program – Jobaaj Group
