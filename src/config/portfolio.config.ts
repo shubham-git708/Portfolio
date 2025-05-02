@@ -309,7 +309,7 @@ export const portfolioConfig = {
   achievements: [
     "Secured <b>90 Percentile in Cat 2024</b> and <b>85 percentile in Xat 2025</b> All India Test.",
     "Won 1st prize in 'Idea presentation for business startup' conducted on 8th Feb 2020 by Velammal Engineering College.",
-    "Won 2nd prize in National Conference on 'Enhancement Of Vehicle Security Using Blockchain' conducted on 6th May 2022 by Velammal Engineering College.",
+    "Won 2nd prize in National Conference on 'Enhancement Of Vehicle Security Using Blockchain' conducted on 6th May 2022 by VEC.",
     "Shortlisted among various contenders in 'Shark Tank' event on 7th May 2021 conducted by SVCE college."
   ],
   coCurricular: [
