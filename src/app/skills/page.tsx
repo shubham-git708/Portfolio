@@ -26,28 +26,34 @@ const skillPage = () => {
               <SkillsFooter items={portfolioConfig.skills.productBusiness} />
             </div>
           </FramerWrapper>
-          <FramerWrapper y={100} delay={0.31} className="block w-full">
-            <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl mb-4">
-              Tech Stack
-            </h1>
-            <div className="w-full flex flex-wrap gap-4">
-              <SkillsFooter items={portfolioConfig.skills.techStack} />
+          <div className="flex flex-col lg:flex-row gap-8 w-full">
+            <div className="flex-1">
+              <FramerWrapper y={100} delay={0.31} className="block w-full">
+                <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl mb-4">
+                  Tech Stack
+                </h1>
+                <div className="w-full flex flex-wrap gap-4">
+                  <SkillsFooter items={portfolioConfig.skills.techStack} />
+                </div>
+              </FramerWrapper>
             </div>
-          </FramerWrapper>
+            <div className="flex-1">
+              <FramerWrapper y={100} delay={0.33} className="block w-full">
+                <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl mb-4">
+                  Soft Skills
+                </h1>
+                <div className="w-full flex flex-wrap gap-4">
+                  <SkillsFooter items={portfolioConfig.skills.softSkills} />
+                </div>
+              </FramerWrapper>
+            </div>
+          </div>
           <FramerWrapper y={100} delay={0.32} className="block w-full">
             <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl mb-4">
               Analytics Tools
             </h1>
             <div className="w-full flex flex-wrap gap-4">
               <SkillsFooter items={portfolioConfig.skills.analyticsTools} />
-            </div>
-          </FramerWrapper>
-          <FramerWrapper y={100} delay={0.33} className="block w-full">
-            <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl mb-4">
-              Soft Skills
-            </h1>
-            <div className="w-full flex flex-wrap gap-4">
-              <SkillsFooter items={portfolioConfig.skills.softSkills} />
             </div>
           </FramerWrapper>
         </div>
