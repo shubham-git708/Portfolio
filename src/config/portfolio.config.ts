@@ -18,7 +18,7 @@ export const portfolioConfig = {
 
   // SEO Information
   seo: {
-    ogImage: "/og-image.png",
+    ogImage: "/preview.png",
     url: "https://mdtaquiimam.vercel.app",
     twitterHandle: "@Taquiimam14",
     keywords: [
