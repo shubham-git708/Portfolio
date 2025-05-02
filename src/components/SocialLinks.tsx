@@ -14,24 +14,9 @@ import { portfolioConfig } from "@/config/portfolio.config";
 const SocialLinks = () => {
   const links = [
     {
-      name: "Facebook",
-      link: portfolioConfig.socialLinks.facebook,
-      icon: <Facebook />,
-    },
-    {
-      name: "Twitter",
-      link: portfolioConfig.socialLinks.twitter,
-      icon: <Twitter />,
-    },
-    {
       name: "Linkedin",
       link: portfolioConfig.socialLinks.linkedin,
       icon: <Linkedin />,
-    },
-    {
-      name: "External",
-      link: portfolioConfig.socialLinks.external,
-      icon: <ExternalLink />,
     },
     {
       name: "Github",
