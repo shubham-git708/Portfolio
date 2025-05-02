@@ -15,7 +15,7 @@ const page = () => {
         <User2 className="h-4 w-4" />
         About me
       </Badge>
-      <div className="flex flex-col gap-5">
+      <div className="flex flex-col gap-10">
         <Heading>
           Builder. Learner. Challenger of the Status Quo.
         </Heading>
@@ -27,13 +27,13 @@ const page = () => {
         </FramerWrapper>
       </div>
       <FramerWrapper
-        className="w-full flex flex-row justify-between max-lg:flex-col "
+        className="w-full flex flex-row justify-between gap-10 max-lg:flex-col mt-8 mb-8"
         y={100}
         delay={0.3}
       >
         <Aboutfooter />
       </FramerWrapper>
-      <FramerWrapper className="block" y={100} delay={0.31}>
+      <FramerWrapper className="block mt-10" y={100} delay={0.31}>
         <h1 className="gap-2 text-3xl font-poppins text-primary font-semibold flex icon_underline relative max-sm:text-2xl">
           {" "}
           <Heart className="h-8 w-8" /> Hobbies
