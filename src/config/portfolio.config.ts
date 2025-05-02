@@ -82,10 +82,10 @@ export const portfolioConfig = {
       
       "Programmer",
       "Product Manager",
-      "Vibe Coder",
-      "Gamer",
-      "Student",
+      "Builder",
       "Contributer",
+      "Vibe Coder",
+      "Chess Player",
     ],
     // Technical Skills
     programmingLanguages: [
@@ -213,7 +213,7 @@ export const portfolioConfig = {
       degree: "Bachelor of Electronics and Communication Engineering",
       institution: "Anna University",
       location: "Chennai, Tamil Nadu, India",
-      period: "July 2018 - 2022",
+      period: "2018 - 2022",
       description:
         "8.04 CGPA",
     },
@@ -221,7 +221,7 @@ export const portfolioConfig = {
       degree: "12th",
       institution: "Chinmaya Vidyalaya",
       location: "Chennai, Tamil Nadu, India",
-      period: "July 2016 - 2018",
+      period: "2016 - 2018",
       description:
         "80%",
     },
@@ -229,7 +229,7 @@ export const portfolioConfig = {
       degree: "10th",
       institution: "Chinmaya Vidyalaya",
       location: "Chennai, Tamil Nadu, India",
-      period: "July 2014 - 2016",
+      period: "2014 - 2016",
       description:
         "9.8 CGPA",
     }
