@@ -18,8 +18,10 @@ const morePage = () => {
             <Heading className="text-2xl">Experience</Heading>
             {portfolioConfig.experience.map((exp, idx) => (
               <FramerWrapper key={idx} y={0} x={0} className={idx === portfolioConfig.experience.length - 1 ? '' : 'mb-4'}>
-                <div className="font-bold text-lg text-primary">{exp.title} <span className="font-normal text-lg text-muted-foreground">@ <span className='font-bold text-[#2f7df4]'>{exp.company}</span> ({exp.startDate} - {exp.endDate})</span></div>
-                <div className="ml-6 mt-1 text-base text-gray-700">{exp.description}</div>
+                <div className="font-bold text-lg text-primary">{exp.title} <span className="font-normal text-lg text-muted-foreground">@ <span className='font-bold text-[#2f7df4]'>{exp.company}</span> ({exp.period}, {exp.location})</span></div>
+                <ul className="list-disc ml-6 mt-1 text-base text-gray-700">
+                  {exp.details.map((d, i) => <li key={i}>{d}</li>)}
+                </ul>
               </FramerWrapper>
             ))}
             <Heading className="text-2xl">Internships</Heading>
