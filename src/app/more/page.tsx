@@ -13,7 +13,7 @@ const morePage = () => {
           <PackagePlus className="h-4 w-4" />
           Experience
         </Badge>
-        <div className="flex flex-col gap-3 w-full relative z-10">
+        <div className="flex flex-col gap-1 w-full relative z-10">
           <div className="relative z-10">
             <Heading>Experience</Heading>
             {portfolioConfig.experience.map((exp, idx) => (
