@@ -41,7 +41,7 @@ const SocialLinks = () => {
   ];
   return (
     <>
-      {links.map((itm, indx) => {
+      {links.filter(itm => itm.link).map((itm, indx) => {
         const timing = 0.55 + indx * 0.125;
 
         return (

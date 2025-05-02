@@ -17,34 +17,39 @@ const skillPage = () => {
         <Heading>My Technical Experience/Skills.</Heading>
         <FramerWrapper y={0} x={200}>
           <p className="font-poppins text-xl w-full text-primary max-sm:text-lg">
-            Currently i am a fresher and i have a solid understand of HTML5,
-            CSS3, JS, TS and React, including responsive design principles. I
-            specialize in building web applications and sites using Javascript,
-            Typescript, React, Nextjs & Node.
+          Product-driven and entrepreneurial-minded, I blend technical expertise with market insight to build user-centric digital products. With hands-on experience leading cross-functional teams and launching innovative solutions, I thrive in fast-paced, data-driven environments. Passionate about solving real-world problems through scalable product strategies..
           </p>
         </FramerWrapper>
         <FramerWrapper y={100} delay={0.3} className="block w-full">
           <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl mb-4">
-            Programming Languages
+            Product Business
           </h1>
-          <div className="w-full grid grid-cols-7 max-lg:grid-cols-4 max-md:grid-cols-3 max-sm:grid-cols-2 gap-4">
-            <SkillsFooter items={portfolioConfig.skills.programmingLanguages} />
+          <div className="w-full flex flex-wrap gap-4">
+            <SkillsFooter items={portfolioConfig.skills.productBusiness} />
           </div>
         </FramerWrapper>
-        <FramerWrapper className="block w-full" y={100} delay={0.32}>
+        <FramerWrapper y={100} delay={0.31} className="block w-full">
           <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl mb-4">
-            Framework/Libraries
+            Tech Stack
           </h1>
-          <div className="w-full grid grid-cols-7 max-lg:grid-cols-4 max-md:grid-cols-3 max-sm:grid-cols-2 gap-4">
-            <SkillsFooter items={portfolioConfig.skills.frameworks} />
+          <div className="w-full flex flex-wrap gap-4">
+            <SkillsFooter items={portfolioConfig.skills.techStack} />
           </div>
         </FramerWrapper>
-        <FramerWrapper className="block w-full" y={100} delay={0.34}>
+        <FramerWrapper y={100} delay={0.32} className="block w-full">
           <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl mb-4">
-            Tools & Technologies
+            Analytics Tools
           </h1>
-          <div className="w-full grid grid-cols-7 max-lg:grid-cols-4 max-md:grid-cols-3 max-sm:grid-cols-2 gap-4">
-            <SkillsFooter items={portfolioConfig.skills.tools} />
+          <div className="w-full flex flex-wrap gap-4">
+            <SkillsFooter items={portfolioConfig.skills.analyticsTools} />
+          </div>
+        </FramerWrapper>
+        <FramerWrapper y={100} delay={0.33} className="block w-full">
+          <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl mb-4">
+            Soft Skills
+          </h1>
+          <div className="w-full flex flex-wrap gap-4">
+            <SkillsFooter items={portfolioConfig.skills.softSkills} />
           </div>
         </FramerWrapper>
       </div>

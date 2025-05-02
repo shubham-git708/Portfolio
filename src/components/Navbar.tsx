@@ -39,6 +39,13 @@ const Navbar = () => {
       href: '/about',
     },
     {
+      title: 'Experience',
+      icon: (
+        <MoreHorizontal className='h-full w-full ' />
+      ),
+      href: '/more',
+    },
+    {
       title: 'Skills',
       icon: (
         <LightbulbIcon className='h-full w-full ' />
@@ -59,20 +66,12 @@ const Navbar = () => {
       ),
       href: '/projects',
     },
-   
     {
       title: 'Contact us',
       icon: (
         <Mail className='h-full w-full ' />
       ),
       href: '/contact',
-    },
-    {
-      title: 'More',
-      icon: (
-        <MoreHorizontal className='h-full w-full ' />
-      ),
-      href: '/more',
     },
   ];
   const [scrolling, setScrolling] = useState(false);

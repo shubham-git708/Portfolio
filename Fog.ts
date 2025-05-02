@@ -61,9 +61,9 @@ export const portfolioConfig = {
 
   // About Information
   about: {
-    bio: "I am a Electronics and Communication Engineer from Chennai, Tamil Nadu, India. I am a Product-focused engineering graduate with hands-on experience in software development, digital strategy, and business analytics. I have a strong foundation in user-centric design, agile methodologies, and cross-functional collaboration. Proven ability to convert ideas into actionable solutions through product thinking, data-driven decision making, and leadership. Seeking to leverage my analytical skills, technical foundation, and entrepreneurial mindset to grow as an Associate Product Manager. .",
+    bio: "I am a Electronics and Communication Engineer from Chennai, Tamil Nadu, India. I am a Product-focused engineering graduate with hands-on experience in software development, digital strategy, and business analytics. Strong foundation in user-centric design, agile methodologies, and cross-functional collaboration. Proven ability to convert ideas into actionable solutions through product thinking, data-driven decision making, and leadership. Seeking to leverage my analytical skills, technical foundation, and entrepreneurial mindset to grow as an Associate Product Manager. .",
     hobbies: [
-      
+      "Watching Football",
       "College Cricket Team Captain",
       "1700 Rated Chess Player",
       "Zonal Level Badminton Player",
@@ -79,12 +79,11 @@ export const portfolioConfig = {
   // Skills and Roles
   skills: {
     roles: [
-      
       "Programmer",
       "Product Manager",
-      "Vibe Coder",
       "Gamer",
       "Student",
+      "Vibe Coder"
       "Contributer",
     ],
     // Technical Skills
@@ -178,33 +177,6 @@ export const portfolioConfig = {
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
       },
     ],
-    productBusiness: [
-      { name: "Product Lifecycle Management", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg" },
-      { name: "Market Research", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" },
-      { name: "Agile/Scrum", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" },
-      { name: "MVP", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" },
-      { name: "Wireframing", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" },
-      { name: "Product Strategy", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg" },
-    ],
-    techStack: [
-      { name: "Java", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
-      { name: "HTML", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
-      { name: "MySQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
-      { name: "C++", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" },
-      { name: "UI/UX Design", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" },
-    ],
-    analyticsTools: [
-      { name: "Excel", icon: "/icons/Analytics Tools/sm_5b334611319f5.jpg" },
-      { name: "SQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
-      { name: "PowerPoint", icon: "/icons/Analytics Tools/sm_5b33460f04516.jpg" },
-      { name: "Technical Analysis", icon: "/icons/Analytics Tools/images.png" },
-    ],
-    softSkills: [
-      { name: "Leadership", icon: "/icons/Soft Skills/1855584-200.png" },
-      { name: "Cross-functional Collaboration", icon: "/icons/Soft Skills/11743194.png" },
-      { name: "Problem Solving", icon: "/icons/Soft Skills/problem-solving-outline-icon-free-vector Background Removed.png" },
-      { name: "Strategic Thinking", icon: "/icons/Soft Skills/1f235ed22e65963176e20fabd518ec7e_t.jpeg" },
-    ],
   },
 
   // Education Information
@@ -241,7 +213,7 @@ export const portfolioConfig = {
       title: "An Outfit of the day Generator Platform",
       description:
         "It removes the hassel of choosing the outfit for the day by generating a random outfit for the day.",
-      tags: ["Vite", "Typescript", "Tailwind CSS", "React", "Shadcn Ui"],
+      tags: ["Vite", "Typescript", "Tailwind CSS", "React", "Shadcn/ui"],
       link: "https://github.com/shubham-git708/Dressense-studio",
     },
     {
@@ -259,98 +231,76 @@ export const portfolioConfig = {
       tags: ["Zustand", "Supabase", "Shadcn Ui", "Nextjs"],
       link: "https://devzone-ti.vercel.app/",
     },
-    
-  ],
-
-  // More Information (for More tab)
-  experience: [
     {
-      title: "Programmer Analyst",
-      company: "Cognizant",
-      location: "Chennai",
-      period: "Feb 2022 - May 2024",
-      details: [
-        "Delivered client-specific software solutions by understanding user requirements and functional specifications.",
-        "Collaborated across technical and business teams for efficient project execution.",
-        "Completed Agile, domain-specific, and project-related certifications."
-      ]
-    }
-  ],
-  internships: [
-    {
-      title: "Software Engineer - Intern",
-      company: "JP Morgan Chase",
-      location: "Chennai",
-      period: "April 2021",
-      details: [
-        "Had to Interface with a stock price data feed.",
-        "OPEN SOURCE CONTRIBUTION - Made a contribution to perspective or other project backlogs.",
-        "Used Perspective to create the chart for the trader's dashboard."
-      ]
+      title: "itZmyLink- One Page many Links",
+      description:
+        "itZmyLink is a simple platform where user can create a personalized page to showcase all your social media profiles in one place. ",
+      tags: ["Nextjs", "Typescript", "Shadcn Ui"],
+      link: "https://github.com/taqui-786/itZmyLink",
     },
     {
-      title: "Data Science and Business Analyst",
-      company: "The Sparks Foundation",
-      location: "Chennai",
-      period: "May 2021",
-      details: [
-        "Worked on Exploratory Data Analysis on dataset of IPL.",
-        "Helped determine the most successful team and players while recommending players a company should endorse its products with."
-      ]
+      title: "GitEstimate- Github estimate worth generator",
+      description:
+        "GitEstimate is a simple fun tool where user can generate their github estimate worth card just by entering their github username. ",
+      tags: ["Nextjs", "Typescript", "Shadcn Ui"],
+      link: "https://github.com/taqui-786/GitEstimate",
     },
     {
-      title: "Campus Ambassador",
-      company: "Internationa Model United Nations",
-      location: "Chennai",
-      period: "May - June 2021",
-      details: [
-        "Played a significant role in the overall success of the venture.",
-        "Promoted IMUN conferences via social media in different schools, universities and institutions."
-      ]
+      title: "Mixcn-ui- Reusable components for Nextjs",
+      description:
+        "This is Nextjs app with a Collection of Nextjs Components - (Currently under Devlelopment) ",
+      tags: ["Nextjs", "Shadcnui", "Npx", "Library"],
+      link: "https://mixcn-ui.vercel.app",
     },
     {
-      title: "Internship",
-      company: "National Small Industries Corporation - NSICLTd",
-      location: "Chennai",
-      period: "Jan 2021",
-      details: [
-        "Underwent virtual internship training on 'IoT application using raspberry Pi'."
-      ]
+      title: "Rupeespot- All deals Product in one place",
+      description:
+        "This is a free tool to check price history charts for millions of products for popular Indian stores such as Amazon and Flipkart. ",
+      tags: ["Nextjs", "Freelancing", "MySQL"],
+      link: "https://rupeespot.com/",
     },
     {
-      title: "Internship",
-      company: "National Small Industries Corporation - NSICLTd",
-      location: "Chennai",
-      period: "Jan 2021",
-      details: [
-        "Underwent virtual internship training on 'Android application development'."
-      ]
-    }
-  ],
-  courses: [
-    //- Complete Digital Marketing Course – Udemy
-    { title: "Complete Digital Marketing Course", provider: "Udemy", year: "2024" },
-    // Complete Product Management Course – Udemy
-    { title: "Complete Product Management Course", provider: "Udemy", year: "2024" },
-    // Product Management Program – Jobaaj Group
-    { title: "Product Management Program", provider: "Jobaaj Group", year: "2024" },
-    // { title: "Course Name", provider: "Provider", year: "Year" }
-  ],
-  achievements: [
-    "Secured <b>90 Percentile in Cat 2024</b> and <b>85 percentile in Xat 2025</b> All India Test.",
-    "Won 1st prize in 'Business Development Plan' conducted on 5th May 2021 by E Cell of Velammal Engineering College.",
-    "Won 1st prize in 'Idea presentation for business startup' conducted on 8th Feb 2020 by Velammal Engineering College.",
-    "Won 2nd prize in National Conference on 'Enhancement Of Vehicle Security Using Blockchain' conducted on 6th May 2022 by Velammal Engineering College.",
-    "Shortlisted among various contenders in 'Shark Tank' event on 7th May 2021 conducted by SVCE college."
-  ],
-  coCurricular: [
-    "Committee member of ECell of the college",
-    "Coordinator of innovation cell of the college",
-    "Student Volunteer – National Service Scheme (2016-2018)",
-    "Represented the country of Vietnam in Model United Nations (MUN -2018)",
-    "Represented the country of Pakistan in Model United Nations (MUN-2017)",
-    "Spoke in front of the Vice Chairperson of Rajya Sabha on the topic 'Constitutionality of the three farm laws' Brainiac MUN (2021)",
-    "Presented a paper on 'Smart Irrigation System' at a National Level technical seminar on 7th May 2021 conducted by SVCE college."
+      title: "Formcraft- Build Type-Safe Forms with Zero Effort",
+      description:
+        "Create production-ready forms with Zod validation, React Hook Form, and TypeScript. Design, customize, and deploy in minutes.",
+      tags: ["Nextjs", "Shadcnui", "Zod", "React Hook Form "],
+      link: "https://formcraft-ti.vercel.app/",
+    },
+    {
+      title: "KryptoKapital- Investing in Cryptocurreny",
+      description:
+        "This is a platform for learning about cryptocurrency with many tools and festures. It is very big project. ",
+      tags: ["Nextjs", "Freelancing", "Supabase"],
+      link: "https://pro.kryptokapital.info/",
+    },
+    {
+      title: "FriendZ - A social media Platform",
+      description:
+        "FriendZ is a social media app made with modern tech stacks such as redis, Authjs etc. A user can Create, delete, like, comment Post. ",
+      tags: ["Redis", "Authjs", "Typescript", "Nextjs"],
+      link: "https://github.com/taqui-786/project-friendz",
+    },
+    {
+      title: "ChatApp- Simple instagram clone",
+      description:
+        "ChatApp is similar to instagram, you can create, edit, delete, like,comment, post and  Follow, unfollow users",
+      tags: ["Reactjs", "Javascript"],
+      link: "https://github.com/taqui-786/chatapp-api",
+    },
+    {
+      title: "Devletter - A Newsletter for devs",
+      description:
+        "Devletter ia a newsletter subscribing single page app made with Nextjs and Tailwindcss.",
+      tags: ["Nextjs", "Tailwindcss"],
+      link: "https://github.com/taqui-786/Devletter",
+    },
+    {
+      title: "CrouMaker - A Crousal Maker App",
+      description:
+        "Crousal Maker is a tool with in-built crousals templates edit and download it in any format.",
+      tags: ["Nextjs", "jsPDF", "html2canvas", "Shadcn Ui"],
+      link: "https://github.com/taqui-786/crousal-maker",
+    },//
   ],
 
   // More Links Information
