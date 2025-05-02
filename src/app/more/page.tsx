@@ -15,7 +15,7 @@ const morePage = () => {
         </Badge>
         <div className="flex flex-col gap-0 w-full relative z-10">
           <div className="relative z-10">
-            <Heading className="text-2xl">Experience</Heading>
+            <Heading className="text-2xl mb-4">Experience</Heading>
             {portfolioConfig.experience.map((exp, idx) => (
               <FramerWrapper key={idx} y={0} x={0} className={idx === portfolioConfig.experience.length - 1 ? '' : 'mb-4'}>
                 <div className="font-bold text-lg text-primary">{exp.title} <span className="font-normal text-lg text-muted-foreground">@ <span className='font-bold text-[#2f7df4]'>{exp.company}</span> ({exp.period}, {exp.location})</span></div>
@@ -24,7 +24,7 @@ const morePage = () => {
                 </ul>
               </FramerWrapper>
             ))}
-            <Heading className="text-2xl">Internships</Heading>
+            <Heading className="text-2xl mb-4">Internships</Heading>
             {portfolioConfig.internships.map((intern, idx) => (
               <FramerWrapper key={idx} y={0} x={0} className="mb-4">
                 <div className="font-bold text-lg text-primary">{intern.title} <span className="font-normal text-lg text-muted-foreground">@ <span className='font-bold text-[#2f7df4]'>{intern.company}</span> ({intern.period}, {intern.location})</span></div>
@@ -33,7 +33,7 @@ const morePage = () => {
                 </ul>
               </FramerWrapper>
             ))}
-            <Heading className="text-2xl">Courses Completed</Heading>
+            <Heading className="text-2xl mb-4">Courses Completed</Heading>
             {portfolioConfig.courses.length === 0 ? <div className="text-gray-700 ml-2">(Add your courses in config)</div> : (
               <ul className="list-disc ml-6 mt-1 text-base text-gray-700">
                 {portfolioConfig.courses.map((course, idx) => (
