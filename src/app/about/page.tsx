@@ -33,7 +33,7 @@ const page = () => {
       >
         <Aboutfooter />
       </FramerWrapper>
-      <FramerWrapper className="block mt-20" y={100} delay={0.31}>
+      <FramerWrapper className="block mt-4" y={100} delay={0.31}>
         <h1 className="gap-2 text-3xl font-poppins text-primary font-semibold flex icon_underline relative max-sm:text-2xl">
           {" "}
           <Heart className="h-8 w-8" /> Hobbies
