@@ -22,10 +22,10 @@ const Aboutfooter = () => {
 
   return (
     <>
-      <div className="flex flex-col items-center w-full gap-8">
+      <div className="flex flex-row items-center w-full justify-center">
         {items.map((val, indx) => (
-          <div className="p-1 w-fit relative" key={indx}>
-            <h1 className="gap-2 text-3xl font-poppins text-primary font-semibold relative flex icon_underline max-sm:text-2xl items-center justify-center">
+          <div className="p-1 w-fit relative mx-6" key={indx}>
+            <h1 className="gap-2 text-3xl font-poppins text-primary font-semibold relative flex icon_underline max-sm:text-2xl">
               {val.icon}
               {val.name}
             </h1>
