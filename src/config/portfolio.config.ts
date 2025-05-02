@@ -20,7 +20,7 @@ export const portfolioConfig = {
   seo: {
     ogImage: "/preview-v2.png",
     url: "https://portfolio-58qp.vercel.app",
-    twitterHandle: "@Taquiimam14",
+    twitterHandle: "@ShubhamPrasadPM",
     keywords: [
       "md",
       "taqui",
