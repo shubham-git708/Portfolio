@@ -83,7 +83,7 @@ export const portfolioConfig = {
       "Product Manager",
       "Gamer",
       "Student",
-      "Vibe Coder"
+      "Vibe Coder",
       "Contributer",
     ],
     // Technical Skills
