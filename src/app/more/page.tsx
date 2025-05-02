@@ -45,12 +45,6 @@ const morePage = () => {
             <ul className="list-disc ml-6 mt-1 text-base text-gray-700">
               {portfolioConfig.achievements.map((ach, idx) => <li key={idx} dangerouslySetInnerHTML={{__html: ach}} />)}
             </ul>
-            <Heading>Co-curricular</Heading>
-            {portfolioConfig.coCurricular.length === 0 ? <div className="text-gray-700 ml-2">(Add your co-curricular activities in config)</div> : (
-              <ul className="list-disc ml-6 mt-1 text-base text-gray-700">
-                {portfolioConfig.coCurricular.map((item, idx) => <li key={idx}>{item}</li>)}
-              </ul>
-            )}
           </div>
         </div>
       </div>
