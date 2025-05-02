@@ -6,11 +6,8 @@ import { portfolioConfig } from "@/config/portfolio.config";
 
 const morePage = () => {
   return (
-    <div className="relative w-full min-h-screen flex flex-col items-start gap-5">
-      {/* Top half background */}
-      <div className="absolute top-0 left-0 w-full h-1/2 bg-repeat bg-[url('/dots.png')] pointer-events-none z-0" />
-      {/* Bottom half background */}
-      <div className="absolute bottom-0 left-0 w-full h-1/2 bg-repeat bg-[url('/dots.png')] pointer-events-none z-0" />
+    <div className="h-full w-full relative flex flex-col items-start gap-5">
+      <div className="absolute inset-0 bg-[radial-gradient(circle,_var(--primary-sky)_1px,_transparent_1px)] bg-[size:20px_20px] opacity-10 z-0 pointer-events-none" />
       <div className="w-full max-w-7xl mx-auto px-4 relative z-10">
         <Badge variant="secondary" className="gap-1.5 py-1 ">
           <PackagePlus className="h-4 w-4" />
