@@ -33,7 +33,7 @@ const morePage = () => {
                 </ul>
               </FramerWrapper>
             ))}
-            <Heading className="text-2xl mb-4">Courses Completed</Heading>
+            <Heading className="text-2xl mb-4 mt-10">Courses Completed</Heading>
             {portfolioConfig.courses.length === 0 ? <div className="text-gray-700 ml-2">(Add your courses in config)</div> : (
               <ul className="list-disc ml-6 mt-1 text-base text-gray-700">
                 {portfolioConfig.courses.map((course, idx) => (
