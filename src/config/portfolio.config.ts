@@ -297,34 +297,6 @@ export const portfolioConfig = {
         "Worked on Exploratory Data Analysis on dataset of IPL.",
         "Helped determine the most successful team and players while recommending players a company should endorse its products with."
       ]
-    },
-    {
-      title: "Campus Ambassador",
-      company: "Internationa Model United Nations",
-      location: "Chennai",
-      period: "May - June 2021",
-      details: [
-        "Played a significant role in the overall success of the venture.",
-        "Promoted IMUN conferences via social media in different schools, universities and institutions."
-      ]
-    },
-    {
-      title: "Internship",
-      company: "National Small Industries Corporation - NSICLTd",
-      location: "Chennai",
-      period: "Jan 2021",
-      details: [
-        "Underwent virtual internship training on 'IoT application using raspberry Pi'."
-      ]
-    },
-    {
-      title: "Internship",
-      company: "National Small Industries Corporation - NSICLTd",
-      location: "Chennai",
-      period: "Jan 2021",
-      details: [
-        "Underwent virtual internship training on 'Android application development'."
-      ]
     }
   ],
   courses: [
