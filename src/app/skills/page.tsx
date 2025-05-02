@@ -56,7 +56,7 @@ const skillPage = () => {
                 <h1 className="gap-2 text-2xl font-poppins text-primary font-semibold flex text_underline relative max-sm:text-xl mb-4">
                   Soft Skills
                 </h1>
-                <div className="w-full flex flex-wrap gap-4">
+                <div className="w-full flex flex-row gap-4 justify-center items-center flex-nowrap">
                   <SkillsFooter items={portfolioConfig.skills.softSkills} />
                 </div>
               </FramerWrapper>
