@@ -24,7 +24,7 @@ const morePage = () => {
                 </ul>
               </FramerWrapper>
             ))}
-            <Heading className="text-2xl mb-4">Internships</Heading>
+            <Heading className="text-2xl mb-4 mt-10">Internships</Heading>
             {portfolioConfig.internships.map((intern, idx) => (
               <FramerWrapper key={idx} y={0} x={0} className="mb-4">
                 <div className="font-bold text-lg text-primary">{intern.title} <span className="font-normal text-lg text-muted-foreground">@ <span className='font-bold text-[#2f7df4]'>{intern.company}</span> ({intern.period}, {intern.location})</span></div>
