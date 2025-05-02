@@ -14,12 +14,12 @@ const SkillsFooter: React.FC<MyComponentProps> = ({ items }) => {
    
             <div 
             key={index} 
-            className="flex flex-col items-center justify-center gap-2 p-4 rounded-lg hover:bg-accent transition-colors"
+            className="flex flex-col items-center justify-center gap-1.5 p-4 rounded-lg hover:bg-accent transition-colors w-20"
           >
             <img 
               src={item.icon} 
               alt={item.name} 
-              className="w-12 h-12 object-contain"
+              className="w-14 h-14 object-contain mx-auto"
             />
             <span className="text-sm text-center font-medium text-muted-foreground">
               {item.name}
