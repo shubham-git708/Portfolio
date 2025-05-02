@@ -253,11 +253,11 @@ export const portfolioConfig = {
     },
     
     {
-      title: "Devzone- A community chat app for devs",
+      title: "Portfolio Website",
       description:
-        "DevZone is the ultimate chat platform for developers to connect, collaborate, and code together. Join the conversation and level up your coding journey.",
-      tags: ["Zustand", "Supabase", "Shadcn Ui", "Nextjs"],
-      link: "https://devzone-ti.vercel.app/",
+        " An interactive portfolio website to showcase my projects and skills.",
+      tags: ["Nextjs", "Tailwind CSS", "React", "Shadcn Ui"],
+      link: "https://github.com/shubham-git708/Portfolio",
     },
     
   ],

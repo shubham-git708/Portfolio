@@ -16,11 +16,10 @@ export const SendEmail = async (formdata: FormData) => {
   }
   await resend.emails.send({
     from: "Contact Form <onboarding@resend.dev>",
-    to: `mdtaqui.jhar@gmail.com`,
+    to: `shubham789prasad@gmail.com`,
     subject: `${name} From Contact Form.`,
     reply_to: `${SenderEmail}`,
-    text: `sender email: ${SenderEmail} 
-     ${message}`,
+    text: `sender email: ${SenderEmail} \n ${message}`,
   });
 
 return redirect('/')
