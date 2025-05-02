@@ -265,16 +265,19 @@ export const portfolioConfig = {
   // More Information (for More tab)
   experience: [
     {
-      title: "Programmer Analyst",
-      company: "Cognizant",
-      location: "Chennai",
-      period: "Feb 2022 - May 2024",
-      details: [
-        "Delivered client-specific software solutions by understanding user requirements and functional specifications.",
-        "Collaborated across technical and business teams for efficient project execution.",
-        "Completed Agile, domain-specific, and project-related certifications."
-      ]
-    }
+      title: "Software Engineer",
+      company: "Tech Corp",
+      startDate: "2020-01",
+      endDate: "2022-12",
+      description: "Worked on various projects.",
+    },
+    {
+      title: "Senior Developer",
+      company: "Innovate Labs",
+      startDate: "2023-01",
+      endDate: "2024-12",
+      description: "Led development teams.",
+    },
   ],
   internships: [
     {
