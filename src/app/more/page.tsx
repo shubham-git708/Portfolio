@@ -18,7 +18,7 @@ const morePage = () => {
             <Heading>Experience</Heading>
             {portfolioConfig.experience.map((exp, idx) => (
               <FramerWrapper key={idx} y={0} x={0} className={idx === portfolioConfig.experience.length - 1 ? '' : 'mb-4'}>
-                <div className="font-bold text-xs text-primary">{exp.title} <span className="font-normal text-xs text-muted-foreground">@ {exp.company} ({exp.period}, {exp.location})</span></div>
+                <div className="font-bold text-xs text-primary">{exp.title} <span className="font-normal text-xs text-muted-foreground">@ <span className='font-bold text-primary'>{exp.company}</span> ({exp.period}, {exp.location})</span></div>
                 <ul className="list-disc ml-6 mt-1 text-base text-gray-700">
                   {exp.details.map((d, i) => <li key={i}>{d}</li>)}
                 </ul>
@@ -27,7 +27,7 @@ const morePage = () => {
             <Heading>Internships</Heading>
             {portfolioConfig.internships.map((intern, idx) => (
               <FramerWrapper key={idx} y={0} x={0} className="mb-4">
-                <div className="font-bold text-xs text-primary">{intern.title} <span className="font-normal text-xs text-muted-foreground">@ {intern.company} ({intern.period}, {intern.location})</span></div>
+                <div className="font-bold text-xs text-primary">{intern.title} <span className="font-normal text-xs text-muted-foreground">@ <span className='font-bold text-primary'>{intern.company}</span> ({intern.period}, {intern.location})</span></div>
                 <ul className="list-disc ml-6 mt-1 text-base text-gray-700">
                   {intern.details.map((d, i) => <li key={i}>{d}</li>)}
                 </ul>
