@@ -15,7 +15,7 @@ const morePage = () => {
         </Badge>
         <div className="flex flex-col gap-3 w-full relative z-10">
           <div className="relative z-10">
-            <div className="font-bold text-xs text-primary mb-1 icon_underline">Experience</div>
+            <Heading>Experience</Heading>
             {portfolioConfig.experience.map((exp, idx) => (
               <FramerWrapper key={idx} y={0} x={0} className="mb-4">
                 <div className="font-bold text-xs text-primary">{exp.title} <span className="font-normal text-xs text-muted-foreground">@ {exp.company} ({exp.period}, {exp.location})</span></div>
@@ -24,7 +24,7 @@ const morePage = () => {
                 </ul>
               </FramerWrapper>
             ))}
-            <div className="font-bold text-xs text-primary mb-1 icon_underline">Internships</div>
+            <Heading>Internships</Heading>
             {portfolioConfig.internships.map((intern, idx) => (
               <FramerWrapper key={idx} y={0} x={0} className="mb-4">
                 <div className="font-bold text-xs text-primary">{intern.title} <span className="font-normal text-xs text-muted-foreground">@ {intern.company} ({intern.period}, {intern.location})</span></div>
@@ -33,7 +33,7 @@ const morePage = () => {
                 </ul>
               </FramerWrapper>
             ))}
-            <div className="font-bold text-xs text-primary mb-1 icon_underline">Courses Completed</div>
+            <Heading>Courses Completed</Heading>
             {portfolioConfig.courses.length === 0 ? <div className="text-gray-700 ml-2">(Add your courses in config)</div> : (
               <ul className="list-disc ml-6 mt-1 text-base text-gray-700">
                 {portfolioConfig.courses.map((course, idx) => (
@@ -41,11 +41,11 @@ const morePage = () => {
                 ))}
               </ul>
             )}
-            <div className="font-bold text-xs text-primary mb-1 icon_underline">Achievements</div>
+            <Heading>Achievements</Heading>
             <ul className="list-disc ml-6 mt-1 text-base text-gray-700">
               {portfolioConfig.achievements.map((ach, idx) => <li key={idx} dangerouslySetInnerHTML={{__html: ach}} />)}
             </ul>
-            <div className="font-bold text-xs text-primary mb-1 icon_underline">Co-curricular</div>
+            <Heading>Co-curricular</Heading>
             {portfolioConfig.coCurricular.length === 0 ? <div className="text-gray-700 ml-2">(Add your co-curricular activities in config)</div> : (
               <ul className="list-disc ml-6 mt-1 text-base text-gray-700">
                 {portfolioConfig.coCurricular.map((item, idx) => <li key={idx}>{item}</li>)}
