@@ -9,7 +9,7 @@ function DownLoadResumeBtn() {
   return (
     <div className="h-fit w-full mt-2 py-2 px-4 flex items-center">
       <Link
-        href="https://drive.google.com/file/d/17LsT_xuQBDaaIjKzm1J-G3Zk3jYTehpj/view?usp=sharing"
+        href="https://drive.google.com/file/d/1IzKIDQg-8ZNYmmvHnUP0KJBmti_Ruwrl/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
         className={cn('inline-block')}
